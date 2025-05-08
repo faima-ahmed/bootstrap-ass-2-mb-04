@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kivo</title>
+    <!-- Internal CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- External CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+
+    <!-- External JS (Botstrap)-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white border-bottom p-1">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./img/Kivzo.svg" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >BUSINESS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">HEALTH NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">WORLD NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">SPORTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">CULTURE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">SUBSCRIBE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">CART(0)</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div class="input-group">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search here"
+                aria-label="Search"
+              />
+              <button class="btn" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+        <i class="fa-solid fa-bars p-3"></i>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+
+    <div class="container">
+      <!-- Section 1 -->
+      <section class="row align-items-start mt-5">
+        <div class="col-lg-8">
+          <div>
+            <img
+              width="800px"
+              height="520px"
+              class="rounded img-fluid mx-auto d-block"
+              src="./img/kivo-banner.png"
+              alt="bg-img"
+            />
+            <h3
+              height="36px"
+              style="line-height: 50px; font-weight: 600"
+              class="fw-bold pt-3"
+            >
+              Revolutionizing manufacturing emerging trends shaping the industry
+            </h3>
+            <div style="font-size: 12px" class="pt-3">
+              <span
+                style="background: #6641ee"
+                class="text-white px-2 py-1 rounded"
+                ><i class="fa-solid fa-globe me-1"></i> World News</span
+              >
+              - <span class="text-muted">JAN 25, 2025</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div style="border-bottom: 1px solid #000000" class="pt-1 mb-3">
+            <div style="font-size: 12px">
+              <span
+                style="background: #e3c043"
+                class="text-white px-2 py-1 rounded"
+                ><img
+                  src="./img/business-logo.png"
+                  width="20px"
+                  height="20px"
+                />
+                Business</span
+              >
+              - <span class="text-muted">FEB 10, 2025</span>
+            </div>
+            <h6 class="py-3">
+              Adapting business strategies to meet changing demands
+            </h6>
+          </div>
+          <div style="border-bottom: 1px solid #000000" class="mb-3">
+            <div style="font-size: 12px" class="pt-3">
+              <span
+                style="background: #e74c3c; width: 107.17px; height: 28px"
+                class="text-white px-2 py-1 rounded"
+                ><img
+                  src="./img/Technology-logo.png"
+                  width="20px"
+                  height="20px"
+                />
+                Technology</span
+              >
+              - <span class="text-muted">FEB 10, 2025</span>
+            </div>
+            <h6 class="py-3">
+              Smart homes revolution how iot is transforming living spaces
+            </h6>
+          </div>
+          <div style="border-bottom: 1px solid #000000" class="mb-3">
+            <div style="font-size: 12px" class="pt-3">
+              <span
+                style="background: #38ade8; height: 28px; width: 81.98px"
+                class="text-white px-2 py-1 rounded"
+                ><img src="./img/culture-logo.png" width="20px" height="20px" />
+                Culture</span
+              >
+              - <span class="text-muted">JAN 25, 2025</span>
+            </div>
+            <h6 class="py-3">
+              The power of art in connecting and expressing culture
+            </h6>
+          </div>
+          <div style="border-bottom: 1px solid #000000" class="mb-3">
+            <div style="font-size: 12px" class="pt-3">
+              <span
+                style="background: #32d255"
+                class="text-white px-2 py-1 rounded"
+                ><img src="./img/health-logo.png" width="20px" height="20px" />
+                Health News</span
+              >
+              - <span class="text-muted">JAN 25, 2025</span>
+            </div>
+            <h6 class="py-3">
+              How artifical intelligence & machine learning are changing the
+              field
+            </h6>
+          </div>
+          <div style="border-bottom: 1px solid #000000">
+            <div style="font-size: 12px" class="pt-3">
+              <span
+                style="background: #e8493a"
+                class="text-white px-2 py-1 rounded"
+                ><img src="./img/sports-logo.png" width="20px" height="20px" />
+                Sports</span
+              >
+              - <span class="text-muted">JAN 25, 2025</span>
+            </div>
+            <h6 class="py-3">Sport is a form of physical activity or game</h6>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <section
+        class="row row-cols-5 align-items-start"
+        style="margin-top: 60px"
+      >
+        <div class="col">
+          <div class="card text-white">
+            <img
+              class="card-img"
+              src="./img/category-mobile.png"
+              alt="Card image"
+            />
+            <div class="card-img-overlay p-0">
+              <div
+                style="backdrop-filter: blur(4px); background: #00000033"
+                class="p-2 bottom-0 position-absolute w-100"
+              >
+                <span
+                  class="px-3 text-uppercase lh-base"
+                  style="font-size: 12px; font-weight: 200"
+                >
+                  Business
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-white">
+            <img
+              class="card-img"
+              src="./img/category-health.png"
+              alt="Card image"
+            />
+            <div class="card-img-overlay p-0">
+              <div
+                style="backdrop-filter: blur(4px); background: #00000033"
+                class="p-2 bottom-0 position-absolute w-100"
+              >
+                <span
+                  class="px-3 text-uppercase lh-base"
+                  style="font-size: 12px; font-weight: 200"
+                >
+                  Health News
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-white">
+            <img
+              class="card-img"
+              src="./img/category-world.png"
+              alt="Card image"
+            />
+            <div class="card-img-overlay p-0">
+              <div
+                style="backdrop-filter: blur(4px); background: #00000033"
+                class="p-2 bottom-0 position-absolute w-100"
+              >
+                <span
+                  class="px-3 text-uppercase lh-base"
+                  style="font-size: 12px; font-weight: 200"
+                >
+                  World News
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-white">
+            <img
+              class="card-img"
+              src="./img/category-sports.png"
+              alt="Card image"
+            />
+            <div class="card-img-overlay p-0">
+              <div
+                style="backdrop-filter: blur(4px); background: #00000033"
+                class="p-2 bottom-0 position-absolute w-100"
+              >
+                <span
+                  class="px-3 text-uppercase lh-base"
+                  style="font-size: 12px; font-weight: 200"
+                >
+                  Sports
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-white">
+            <img
+              class="card-img"
+              src="./img/category-culture.png"
+              alt="Card image"
+            />
+            <div class="card-img-overlay p-0">
+              <div
+                style="backdrop-filter: blur(4px); background: #00000033"
+                class="p-2 bottom-0 position-absolute w-100"
+              >
+                <span
+                  class="px-3 text-uppercase lh-base"
+                  style="font-size: 12px; font-weight: 200"
+                >
+                  Culture
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3 -->
+      <section style="margin-top: 60px" class="row align-items-start">
+        <div class="col-lg-5 bg-white pb-3" style="padding: 40px">
+          <div class="pt-3 mb-4" width="518.61px">
+            <div style="font-size: 12px">
+              <span class="text-muted text-capitalize"
+                >storles that matter</span
+              >
+            </div>
+
+            <h6
+              class="text-uppercase"
+              style="
+                width: 438.39px;
+                height: 40px;
+                line-height: 39.2px;
+                font-weight: 500 #000000;
+              "
+            >
+              Editor's Pick
+            </h6>
+          </div>
+          <div style="border-bottom: 1px solid #000000" class="pt-3 mb-3">
+            <div style="font-size: 12px">
+              <span class="text-muted text-uppercase">culture</span>
+            </div>
+            <h6 class="py-2">
+              The power of art in connecting and expressing culture
+            </h6>
+          </div>
+          <div style="border-bottom: 1px solid #000000" class="pt-3 mb-3">
+            <div style="font-size: 12px">
+              <span class="text-muted text-uppercase">health news</span>
+            </div>
+            <h6 class="py-2">
+              How artificial intelligence & machine learning are changing the
+              field
+            </h6>
+          </div>
+          <div class="pt-3 mb-3">
+            <div style="font-size: 12px">
+              <span class="text-muted text-uppercase">sports</span>
+            </div>
+            <h6 class="py-2">
+              The incfluence of youth sports programs on developing future
+              champions
+            </h6>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div>
+            <img
+              width="757.61px"
+              height="571px"
+              class="rounded img-fluid mx-auto d-block"
+              src="./img/sector-3-img.svg"
+              alt="bg-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- section 4 -->
+      <section
+        style="margin-top: 60px; background-color: #f08f64"
+        class="container row p-5 pb-4"
+      >
+        <div class="col-lg-8">
+          <div class="row gx-3">
+            <h4 class="text-uppercase">latest news</h4>
+            <div class="col-lg-6">
+              <img
+                class="rounded img-fluid"
+                src="./img/sector-4-img-1.png"
+                alt="bg-img"
+              />
+              <div class="pt-3 mb-3">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase">Technology</span>
+                  - <span class="text-muted">JAN 25, 2025</span>
+                </div>
+                <h6 class="py-2">
+                  Future-focusd an in-depth look at cutting-edge tech trends
+                </h6>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img
+                class="rounded img-fluid"
+                src="./img/sector-4-img-2.png"
+                alt="bg-img"
+              />
+              <div class="pt-3 mb-3">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase">Business</span>
+                  - <span class="text-muted">JAN 25, 2025</span>
+                </div>
+                <h6 class="py-2">
+                  Understanding the interconnectedness of events shaping our
+                  world today
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <p class="text-end">view all -></p>
+          <div class="row">
+            <div class="col-lg-5">
+              <img
+                class="rounded img-fluid"
+                src="./img/row1-col1.png"
+                alt="bg-img"
+              />
+            </div>
+            <div class="col-lg-7">
+              <div class="mb-3">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase">Business</span>
+                  - <span class="text-muted">FEB 10, 2025</span>
+                </div>
+                <h6 class="py-2">
+                  Adapting business strategies to meet changing demands
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-5">
+              <img
+                class="rounded img-fluid"
+                src="./img/row2-col2.png"
+                alt="bg-img"
+              />
+            </div>
+            <div class="col-lg-7">
+              <div class="mb-3">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase">Technology</span>
+                  - <span class="text-muted">FEB 10, 2025</span>
+                </div>
+                <h6 class="py-2">
+                  Smart homes revolution how iot is transforming
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-5">
+              <img
+                class="rounded img-fluid"
+                src="./img/row3-col3.png"
+                alt="bg-img"
+              />
+            </div>
+            <div class="col-lg-7">
+              <div class="mb-3">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase">Culture</span>
+                  - <span class="text-muted">JAN 27, 2025</span>
+                </div>
+                <h6 class="py-2">
+                  The power of art in connecting and expressing culture
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 5 -->
+      <section style="margin-top: 60px" class="container row p-5 pb-4 bg-white">
+        <div class="col-lg-7">
+          <h4 class="text-uppercase">Technology</h4>
+          <div class="row">
+            <div class="col-lg-6">
+              <img
+                class="rounded img-fluid"
+                src="./img/tec-1.png"
+                alt="bg-img"
+              />
+              <div class="pt-3 mb-3">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase">Technology</span>
+                  - <span class="text-muted">FEB 10, 2025</span>
+                </div>
+                <h6 class="py-2">
+                  Smart homes revolution how iot is transforming living spaces
+                </h6>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img
+                class="rounded img-fluid"
+                src="./img/tec-2.png"
+                alt="bg-img"
+              />
+              <div class="pt-3 mb-3">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase">Technology</span>
+                  - <span class="text-muted">JAN 25, 2025</span>
+                </div>
+                <h6 class="py-2">
+                  The future of 5g connecting a world at lightning speed
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <img
+                class="rounded img-fluid"
+                src="./img/tec-3.png"
+                alt="bg-img"
+              />
+              <div class="pt-3 mb-3">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase">Technology</span>
+                  - <span class="text-muted">JAN 25, 2025</span>
+                </div>
+                <h6 class="py-2">
+                  Cybersecurity at risk the growing threat of digital breaches
+                </h6>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img
+                class="rounded img-fluid"
+                src="./img/tec-4.png"
+                alt="bg-img"
+              />
+              <div class="pt-3 mb-3">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase">Technology</span>
+                  - <span class="text-muted">JAN 25, 2025</span>
+                </div>
+                <h6 class="py-2">
+                  Transforming entertainment, education & beyond
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <p class="text-end">view all -></p>
+          <div class="card text-white">
+            <img
+              class="rounded img-fluid card-img"
+              src="./img/tec-5.png"
+              alt="bg-img"
+            />
+            <div class="card-img-overlay p-0">
+              <div
+                style="
+                  backdrop-filter: blur(3px);
+                  background: #00000033;
+                  height: 163px;
+                "
+                class="px-5 py-4 bottom-0 w-100"
+              >
+                <div>
+                  <button
+                    type="button"
+                    style="
+                      color: #000000;
+                      background-color: #f08f64;
+                      padding: 6px 14px;
+                    "
+                    class="rounded text-uppercase"
+                  >
+                    kiristin watson
+                  </button>
+
+                  <div>
+                    <span
+                      class="text-uppercase lh-base"
+                      style="font-size: 12px; font-weight: 200"
+                    >
+                      JAN 25, 2025
+                    </span>
+
+                    <h5 class="w-100">
+                      Future-focused an-depth look at cutting-edge tech trends
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 6 -->
+      <section style="margin-top: 60px" class="container p-5 pb-5 bg-white">
+        <div class="card text-white">
+          <img
+            class="rounded img-fluid card-img"
+            src="./img/big-img.png"
+            alt="bg-img"
+          />
+          <div class="card-img-overlay p-0">
+            <div
+              style="backdrop-filter: blur(2px); background: #00000033"
+              class="p-4 bottom-0 position-absolute w-100"
+            >
+              <p>Turning ideas into impactful Ad campaigns</p>
+              <div class="row">
+                <div class="col-lg-8">
+                  <span
+                    class="lh-base"
+                    style="font-size: 12px; font-weight: 200"
+                  >
+                    Partner with us to take brand to the next level. Our
+                    platform offers prime advertising opportunities designed to
+                    connect your business with a diverse & engaged audience.
+                  </span>
+                </div>
+                <div class="col-lg-4 text-end">
+                  <button
+                    type="button"
+                    style="
+                      color: #000000;
+                      background-color: #f08f64;
+                      padding: 8px 10px;
+                    "
+                    class="rounded text-uppercase"
+                  >
+                    advertise with us
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 7 -->
+      <section style="margin-top: 60px" class="container row p-5 bg-white pb-5">
+        <div>
+          <div class="row">
+            <div class="col-lg-8">
+              <h4 class="text-uppercase">Our Editorial Team</h4>
+            </div>
+            <div class="col-lg-4"><p class="text-end">view all -></p></div>
+          </div>
+          <div class="row gx-3 px-0">
+            <div class="col-lg-4">
+              <div class="card text-white">
+                <img
+                  class="rounded img-fluid card-img"
+                  src="./img/Author Image.png"
+                  alt="bg-img"
+                />
+                <div class="card-img-overlay p-0">
+                  <div
+                    class="row w-100 bottom-0 position-absolute m-0 p-2"
+                    style="backdrop-filter: blur(4px); background: #00000033"
+                  >
+                    <div class="col-6 p-0" style="text-decoration: underline">
+                      <span
+                        class="px-3 lh-base"
+                        style="font-size: 12px; font-weight: 200"
+                        >Marvin McKinney</span
+                      >
+                    </div>
+                    <div
+                      class="col-6 p-0 text-end"
+                      style="text-decoration: underline"
+                    >
+                      <span
+                        class="px-3 lh-base"
+                        style="font-size: 12px; font-weight: 200"
+                        >Senior Reporter</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-white">
+                <img
+                  class="rounded img-fluid card-img"
+                  src="./img/Author Image (1).png"
+                  alt="bg-img"
+                />
+                <div class="card-img-overlay p-0">
+                  <div
+                    class="row w-100 bottom-0 position-absolute m-0 p-2"
+                    style="backdrop-filter: blur(4px); background: #00000033"
+                  >
+                    <div class="col-6 p-0" style="text-decoration: underline">
+                      <span
+                        class="px-3 lh-base"
+                        style="font-size: 12px; font-weight: 200"
+                        >Theresa</span
+                      >
+                    </div>
+                    <div
+                      class="col-6 p-0 text-end"
+                      style="text-decoration: underline"
+                    >
+                      <span
+                        class="px-3 lh-base"
+                        style="font-size: 12px; font-weight: 200"
+                        >Publish</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-white">
+                <img
+                  class="rounded img-fluid card-img"
+                  src="./img/Author Image (2).png"
+                  alt="bg-img"
+                />
+                <div class="card-img-overlay p-0">
+                  <div
+                    class="row w-100 bottom-0 position-absolute m-0 p-2"
+                    style="backdrop-filter: blur(4px); background: #00000033"
+                  >
+                    <div class="col-6 p-0" style="text-decoration: underline">
+                      <span
+                        class="px-3 lh-base"
+                        style="font-size: 12px; font-weight: 200"
+                        >Esther Howards</span
+                      >
+                    </div>
+                    <div
+                      class="col-6 p-0 text-end"
+                      style="text-decoration: underline"
+                    >
+                      <span
+                        class="px-3 lh-base"
+                        style="font-size: 12px; font-weight: 200"
+                        >Content Writer</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 8 -->
+      <section style="margin-top: 60px" class="container row p-5 bg-white pb-5">
+        <div class="col-lg-7">
+          <h4 class="text-uppercase">podcast</h4>
+          <div class="card text-white">
+            <img
+              class="rounded img-fluid card-img"
+              src="./img/Podcast Image.png"
+              alt="bg-img"
+            />
+            <div class="card-img-overlay p-0">
+              <div
+                style="
+                  backdrop-filter: blur(1px);
+                  background: #00000033;
+                  height: 145px;
+                "
+                class="px-5 py-4 bottom-0 w-100"
+              >
+                <div style="text-decoration: underline">
+                  <button
+                    type="button"
+                    style="
+                      color: #000000;
+                      background-color: #f08f64;
+                      padding: 6px 14px;
+                      text-decoration: underline;
+                    "
+                    class="rounded text-uppercase"
+                  >
+                    10 minute
+                  </button>
+
+                  <div>
+                    <span
+                      class="text-uppercase lh-base"
+                      style="font-size: 12px; font-weight: 200"
+                    >
+                      marvin mckinney
+                    </span>
+
+                    <h5 class="w-100">
+                      Conversation beyond borders insights, ideas and inspiring
+                      journeys
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <p class="text-end">view all -></p>
+          <div style="margin-bottom: 10px" class="card text-white">
+            <img
+              class="rounded img-fluid card-img"
+              src="./img/Podcast Image (1).png"
+              alt="bg-img"
+            />
+            <div class="card-img-overlay p-0">
+              <div class="px-3 py-2 bottom-0 w-100 position-absolute">
+                <div style="text-decoration: underline">
+                  <div>
+                    <span
+                      class="text-uppercase lh-base"
+                      style="font-size: 12px; font-weight: 200"
+                    >
+                      guy hawkins
+                    </span>
+
+                    <h5 class="w-100">
+                      Beyond the mic transformative ideas, powerful voices,
+                      endless inspiration
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-bottom: 10px" class="card text-white">
+            <img
+              class="rounded img-fluid card-img"
+              src="./img/Podcast Image (2).png"
+              alt="bg-img"
+            />
+            <div class="card-img-overlay p-0">
+              <div class="px-3 py-2 bottom-0 w-100 position-absolute">
+                <div style="text-decoration: underline">
+                  <div>
+                    <span
+                      class="text-uppercase lh-base"
+                      style="font-size: 12px; font-weight: 200"
+                    >
+                      kristin watson
+                    </span>
+
+                    <h5 class="w-100">
+                      The change markers inspiring stories of transformation and
+                      resilience
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 9 -->
+      <section style="margin-top: 60px; background-color: #000000;" class="row align-items-start">
+        <div class="col-lg-7"></div>
+        <div class="col-lg-5">
+          <div style="border-bottom: 1px solid #000000" class="pt-3 mb-3">
+            <h6 class="py-2">Facebook</h6>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
