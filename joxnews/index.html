@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joxnews</title>
+    <!-- Internal CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- External CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+
+    <!-- External JS (Botstrap)-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white border-bottom px-1">
+      <div class="container">
+        <div class="col-lg-4">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <i class="fa-solid fa-bars p-3"></i>
+            <form class="d-flex" role="search">
+              <div class="input-group">
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Search countries"
+                  aria-label="Search"
+                />
+                <button class="btn" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="d-flex justify-content-center">
+            <img
+              class="rounded img-fluid"
+              src="./img/joxnews-icon.png"
+              alt="bg-img"
+            />
+          </div>
+        </div>
+        <div class="col-lg-4 text-end pe-3">
+          <div class="d-flex justify-content-end align-items-center">
+            <div><h6 class="me-2 pt-2">Cart</h6></div>
+            <div class="py-2">
+              <a href="#" class="btnn me-2 pt-2">0</a>
+            </div>
+            <div
+              style="background-color: #000000; padding: 12px 21px"
+              class="text-white rounded"
+            >
+              Subscribe
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom p-1">
+      <div class="container">
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent "
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item me-2">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Entertainment</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link active" href="#">Sports</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link active" href="#">Politics</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link active" href="#">Business</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link active" href="#">Technology</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link active" href="#">Health</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div class="container">
+      <!-- section 1 -->
+      <section class="row container mt-5" style="margin-bottom: 30px">
+        <div class="col-lg-8">
+          <div>
+            <img
+              width="800px"
+              height="520px"
+              class="rounded img-fluid mx-auto d-block"
+              src="./img/joxnews-big-img.png"
+              alt="bg-img"
+            />
+            <h3 class="fw-bold pt-3">
+              Global Climate Summit Yieds Mixed Results on key Agreements
+            </h3>
+            <div class="row">
+              <div class="col-lg-7 vl">
+                <div style="font-size: 12px" class="pt-2">
+                  <span class="text-muted"
+                    >the global stock market has reached unprecedented level,
+                    buoyed by optimistic economic forecasts strong corporate
+                    earnings</span
+                  >
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="d-flex align-items-center">
+                  <div class="ps-2">
+                    <img
+                      class="rounded img-fluid d-block me-3"
+                      src="./img/Michael Brown.png"
+                      alt="bg-img"
+                      style="width: 45px; height: 45px"
+                    />
+                  </div>
+                  <div>
+                    <h6 class="text-capitalize mb-0">Micheal brown</h6>
+                    <div style="font-size: 12px">
+                      <span class="text-muted">December 16, 2024</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row d-flex">
+            <div class="col-lg-6 mb-3">
+              <img
+                class="rounded img-fluid"
+                src="./img/sec-1-1.png"
+                alt="bg-img"
+              />
+            </div>
+            <div class="col-lg-6 mb-3">
+              <div class="mb-3">
+                <h6>
+                  Blockchain Beyond Cryptocurrency: Revolutionizing Industries
+                </h6>
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase vl pe-2"
+                    >Technology</span
+                  >
+                  <img
+                    class="rounded img-fluid ps-1"
+                    src="./img/clock-icon.png"
+                    alt="bg-img"
+                  />
+                  <span class="text-muted">5 Min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex">
+            <div class="col-lg-6 mb-3">
+              <img
+                class="rounded img-fluid"
+                src="./img/sec-1-2.png"
+                alt="bg-img"
+              />
+            </div>
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <h6>Stock Market Hits Record High Amind Economic Optimism</h6>
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase vl pe-2"
+                    >Business</span
+                  >
+                  <img
+                    class="rounded img-fluid ps-1"
+                    src="./img/clock-icon.png"
+                    alt="bg-img"
+                  />
+                  <span class="text-muted">8 Min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex">
+            <div class="col-lg-6 mb-3">
+              <img
+                class="rounded img-fluid"
+                src="./img/sec-1-3.png"
+                alt="bg-img"
+              />
+            </div>
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <h6>Health Innovation to Watch in 2024</h6>
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase vl pe-2">Health</span>
+                  <img
+                    class="rounded img-fluid ps-1"
+                    src="./img/clock-icon.png"
+                    alt="bg-img"
+                  />
+                  <span class="text-muted">7 Min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex">
+            <div class="col-lg-6 mb-3">
+              <img
+                class="rounded img-fluid"
+                src="./img/sec-1-4.png"
+                alt="bg-img"
+              />
+            </div>
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <h6>New Regulations Put Tech Giants Under the Spotlight</h6>
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase vl pe-2"
+                    >Technology</span
+                  >
+                  <img
+                    class="rounded img-fluid ps-1"
+                    src="./img/clock-icon.png"
+                    alt="bg-img"
+                  />
+                  <span class="text-muted">6 Min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 2 -->
+      <section style="margin-top: 60px" class="container row pb-4 bg-light">
+        <div class="col-lg-6">
+          <h4 class="text-uppercase">latest news</h4>
+          <div>
+            <img
+              class="rounded img-fluid"
+              src="./img/section2-big-img.png"
+              alt="bg-img"
+            />
+            <div class="pt-3 mb-3">
+              <div style="font-size: 12px">
+                <span class="text-muted text-uppercase vl pe-2">Politics</span>
+                <img
+                  class="rounded img-fluid ps-1"
+                  src="./img/clock-icon.png"
+                  alt="bg-img"
+                />
+                <span class="text-muted">8 Min</span>
+              </div>
+              <h6 class="py-2">
+                Global Sunnit 2024: Leaders Address Climate, Trade, and Security
+                Challenges
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <p class="text-end" style="color: #cf412b">view all -></p>
+
+          <div class="row">
+            <div class="col-lg-6" >
+              <img
+                class="rounded img-fluid"
+                src="./img/sec-2-small-img-1.png"
+                alt="bg-img"
+              />
+              <div class="pt-3 mb-3" style="border-bottom: 1px solid #C0C0C0">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase vl pe-2"
+                    >Technology</span
+                  >
+                  <img
+                    class="rounded img-fluid ps-1"
+                    src="./img/clock-icon.png"
+                    alt="bg-img"
+                  />
+                  <span class="text-muted">5 Min</span>
+                </div>
+                <h6 class="py-2">
+                  Blockchain Beyond Cryptocurrency: Revolutionizing 
+                </h6>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img
+                class="rounded img-fluid"
+                src="./img/sec-2-small-img-2.png"
+                alt="bg-img"
+              />
+              <div class="pt-3 mb-3" style="border-bottom: 1px solid #C0C0C0">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase vl pe-2"
+                    >Technology</span
+                  >
+                  <img
+                    class="rounded img-fluid ps-1"
+                    src="./img/clock-icon.png"
+                    alt="bg-img"
+                  />
+                  <span class="text-muted">9 Min</span>
+                </div>
+                <h6 class="py-2">
+                  Exploring the Future of Exploration Beyomd Mars
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <img
+                class="rounded img-fluid"
+                src="./img/sec-2-small-img-3.png"
+                alt="bg-img"
+              />
+              <div class="pt-3 mb-3" style="border-bottom: 1px solid #C0C0C0">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase vl pe-2">Health</span>
+                  <img
+                    class="rounded img-fluid ps-1"
+                    src="./img/clock-icon.png"
+                    alt="bg-img"
+                  />
+                  <span class="text-muted">5 Min</span>
+                </div>
+                <h6 class="py-2">
+                  The Role of Fitness in Chornic Disease Management
+                </h6>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img
+                class="rounded img-fluid"
+                src="./img/sec-2-small-img-1.png"
+                alt="bg-img"
+              />
+              <div class="pt-3 mb-3" style="border-bottom: 1px solid #C0C0C0">
+                <div style="font-size: 12px">
+                  <span class="text-muted text-uppercase vl pe-2"
+                    >Technology</span
+                  >
+                  <img
+                    class="rounded img-fluid ps-1"
+                    src="./img/clock-icon.png"
+                    alt="bg-img"
+                  />
+                  <span class="text-muted">6 Min</span>
+                </div>
+                <h6 class="py-2">
+                  The Science of Sleep: How to Rest Better in a 24/7 World
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 3 -->
+      <section style="margin-top: 60px" class="container row pb-4 bg-light">
+        <div>
+          <img
+            class="rounded img-fluid"
+            src="./img/sec-3-big-img.png"
+            alt="bg-img"
+          />
+        </div>
+      </section>
+      <!-- section 4 -->
+      <section style="margin-top: 60px" class="container row pb-4 bg-light">
+        
+      </section>
+    </div>
+  </body>
+</html>

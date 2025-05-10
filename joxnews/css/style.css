@@ -1,0 +1,18 @@
+* {
+  font-family: Arial, "Archivo Narrow", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a.btnn {
+  text-decoration: none;
+  color: #000;
+  padding: 6px 6px;
+  background-color: #cf412b;
+  border-radius: 50%;
+}
+
+.vl {
+  border-right: 1px solid gray !important;
+}
